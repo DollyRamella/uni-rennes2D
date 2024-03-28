@@ -21733,7 +21733,26 @@
     },
     {
       "name": "floorLayer",
-      "objects": [],
+      "objects": [
+        {
+          "id": 2,
+          "name": "visite 360",
+          "visible": true,
+          "x": 1088,
+          "y": 908,
+          "height": 112,
+          "properties": [
+            {
+              "name": "openWebsite",
+              "type": "string",
+              "value": "https://www.thinglink.com/view/scene/1765757839810232997"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 132
+        }
+      ],
       "opacity": 1,
       "type": "objectgroup",
       "visible": true,
@@ -26574,7 +26593,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "PNRV-chunk-1-74c4850f.png",
+      "image": "PNRV-chunk-1-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26610,7 +26629,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "PNRV-chunk-2-74c4850f.png",
+      "image": "PNRV-chunk-2-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26625,7 +26644,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "PNRV-chunk-3-74c4850f.png",
+      "image": "PNRV-chunk-3-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26640,7 +26659,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "PNRV-chunk-4-74c4850f.png",
+      "image": "PNRV-chunk-4-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26655,7 +26674,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "PNRV-chunk-5-74c4850f.png",
+      "image": "PNRV-chunk-5-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26670,7 +26689,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "PNRV-chunk-6-74c4850f.png",
+      "image": "PNRV-chunk-6-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26685,7 +26704,7 @@
     {
       "columns": 16,
       "firstgid": 1537,
-      "image": "PNRV-chunk-7-74c4850f.png",
+      "image": "PNRV-chunk-7-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26700,7 +26719,7 @@
     {
       "columns": 16,
       "firstgid": 1793,
-      "image": "PNRV-chunk-8-74c4850f.png",
+      "image": "PNRV-chunk-8-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26715,7 +26734,7 @@
     {
       "columns": 16,
       "firstgid": 2049,
-      "image": "PNRV-chunk-9-74c4850f.png",
+      "image": "PNRV-chunk-9-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26730,7 +26749,7 @@
     {
       "columns": 16,
       "firstgid": 2305,
-      "image": "PNRV-chunk-10-74c4850f.png",
+      "image": "PNRV-chunk-10-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26745,7 +26764,7 @@
     {
       "columns": 16,
       "firstgid": 2561,
-      "image": "PNRV-chunk-11-74c4850f.png",
+      "image": "PNRV-chunk-11-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26760,7 +26779,7 @@
     {
       "columns": 16,
       "firstgid": 2817,
-      "image": "PNRV-chunk-12-74c4850f.png",
+      "image": "PNRV-chunk-12-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26775,7 +26794,7 @@
     {
       "columns": 16,
       "firstgid": 3073,
-      "image": "PNRV-chunk-13-74c4850f.png",
+      "image": "PNRV-chunk-13-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26790,7 +26809,7 @@
     {
       "columns": 16,
       "firstgid": 3329,
-      "image": "PNRV-chunk-14-74c4850f.png",
+      "image": "PNRV-chunk-14-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26805,7 +26824,7 @@
     {
       "columns": 16,
       "firstgid": 3585,
-      "image": "PNRV-chunk-15-74c4850f.png",
+      "image": "PNRV-chunk-15-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26820,7 +26839,7 @@
     {
       "columns": 16,
       "firstgid": 3841,
-      "image": "PNRV-chunk-16-74c4850f.png",
+      "image": "PNRV-chunk-16-a789bc45.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -26838,7 +26857,7 @@
   "height": 40,
   "infinite": false,
   "nextlayerid": 13,
-  "nextobjectid": 2,
+  "nextobjectid": 3,
   "orientation": "orthogonal",
   "renderorder": "right-down",
   "tileheight": 32,

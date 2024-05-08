@@ -2965,7 +2965,7 @@
     {
       "columns": 13,
       "firstgid": 1,
-      "image": "ascenseur-chunk-1-40a0e205.png",
+      "image": "ascenseur-chunk-1-17e2cae6.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,
@@ -3006,6 +3006,28 @@
   "nextlayerid": 13,
   "nextobjectid": 1,
   "orientation": "orthogonal",
+  "properties": [
+    {
+      "name": "mapCopyright",
+      "type": "string",
+      "value": "Credits: Dolly Ramella \nLicense: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)"
+    },
+    {
+      "name": "mapDescription",
+      "type": "string",
+      "value": "Ascenseur CIREFE"
+    },
+    {
+      "name": "mapImage",
+      "type": "string",
+      "value": "ascenseur.png"
+    },
+    {
+      "name": "mapName",
+      "type": "string",
+      "value": "Ascenseur CIREFE"
+    }
+  ],
   "renderorder": "right-down",
   "tileheight": 32,
   "tilewidth": 32,

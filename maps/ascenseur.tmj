@@ -2414,7 +2414,26 @@
     },
     {
       "name": "floorLayer",
-      "objects": [],
+      "objects": [
+        {
+          "id": 1,
+          "name": "portes",
+          "visible": true,
+          "x": 199.333333333333,
+          "y": 242,
+          "height": 74.6666666666667,
+          "properties": [
+            {
+              "name": "openWebsite",
+              "type": "string",
+              "value": "https://view.genial.ly/6613010e51ca9d00142e32f0"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 84.6666666666667
+        }
+      ],
       "opacity": 1,
       "type": "objectgroup",
       "visible": true,
@@ -2965,7 +2984,7 @@
     {
       "columns": 13,
       "firstgid": 1,
-      "image": "ascenseur-chunk-1-88d73c7a.png",
+      "image": "ascenseur-chunk-1-8258c1e7.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,
@@ -3004,7 +3023,7 @@
   "height": 17,
   "infinite": false,
   "nextlayerid": 13,
-  "nextobjectid": 1,
+  "nextobjectid": 2,
   "orientation": "orthogonal",
   "properties": [
     {

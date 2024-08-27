@@ -6094,7 +6094,7 @@
             }
           ],
           "rotation": 0,
-          "type": "area",
+          "class": "area",
           "width": 136
         },
         {
@@ -6112,7 +6112,7 @@
             }
           ],
           "rotation": 0,
-          "type": "area",
+          "class": "area",
           "width": 104
         },
         {
@@ -6135,7 +6135,7 @@
             }
           ],
           "rotation": 0,
-          "type": "area",
+          "class": "area",
           "width": 185.333333333333
         }
       ],
@@ -8574,12 +8574,12 @@
       "y": 0
     }
   ],
-  "tiledversion": "1.11.0",
+  "tiledversion": "1.9.1",
   "tilesets": [
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "bacasable_pierre-chunk-1-61a667d8.png",
+      "image": "bacasable_pierre-chunk-1-6081b0bc.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -8589,12 +8589,33 @@
       "tilecount": 256,
       "tileheight": 32,
       "tilewidth": 32,
-      "tiles": []
+      "tiles": [
+        {
+          "id": 1,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        }
+      ]
     },
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "bacasable_pierre-chunk-2-61a667d8.png",
+      "image": "bacasable_pierre-chunk-2-6081b0bc.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -8609,7 +8630,7 @@
     {
       "columns": 5,
       "firstgid": 513,
-      "image": "bacasable_pierre-chunk-3-61a667d8.png",
+      "image": "bacasable_pierre-chunk-3-6081b0bc.png",
       "imageheight": 160,
       "imagewidth": 160,
       "margin": 0,
@@ -8639,6 +8660,6 @@
   "renderorder": "right-down",
   "tileheight": 32,
   "tilewidth": 32,
-  "version": "1.10",
+  "version": "1.9",
   "width": 40
 }

@@ -2274,7 +2274,7 @@
         0,
         0,
         0,
-        0,
+        2,
         0,
         0,
         0,
@@ -8579,7 +8579,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "bacasable_pierre-chunk-1-6081b0bc.png",
+      "image": "bacasable_pierre-chunk-1-ec1919cc.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -8615,7 +8615,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "bacasable_pierre-chunk-2-6081b0bc.png",
+      "image": "bacasable_pierre-chunk-2-ec1919cc.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -8630,7 +8630,7 @@
     {
       "columns": 5,
       "firstgid": 513,
-      "image": "bacasable_pierre-chunk-3-6081b0bc.png",
+      "image": "bacasable_pierre-chunk-3-ec1919cc.png",
       "imageheight": 160,
       "imagewidth": 160,
       "margin": 0,

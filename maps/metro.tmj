@@ -1107,17 +1107,6 @@
       "y": 0
     },
     {
-      "name": "floorLayer",
-      "objects": [],
-      "opacity": 1,
-      "type": "objectgroup",
-      "visible": true,
-      "draworder": "topdown",
-      "id": 4,
-      "x": 0,
-      "y": 0
-    },
-    {
       "data": [
         0,
         0,
@@ -2220,6 +2209,17 @@
       "type": "tilelayer",
       "visible": true,
       "width": 30,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "floorLayer",
+      "objects": [],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "draworder": "topdown",
+      "id": 4,
       "x": 0,
       "y": 0
     },
@@ -3335,7 +3335,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "metro-chunk-1-77690d2f.png",
+      "image": "metro-chunk-1-19ccb2c3.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -3350,7 +3350,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "metro-chunk-2-77690d2f.png",
+      "image": "metro-chunk-2-19ccb2c3.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -3365,7 +3365,7 @@
     {
       "columns": 6,
       "firstgid": 513,
-      "image": "metro-chunk-3-77690d2f.png",
+      "image": "metro-chunk-3-19ccb2c3.png",
       "imageheight": 192,
       "imagewidth": 192,
       "margin": 0,

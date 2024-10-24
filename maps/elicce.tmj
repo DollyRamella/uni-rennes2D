@@ -182,7 +182,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes-2-hall"
+                 "value":"\/@\/rennes-2-hall"
                 }],
          "type":"tilelayer",
          "visible":false,

@@ -403,7 +403,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes-1-hall#from-campus"
+                 "value":"\/@\/rennes-1-hall#from-campus"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -569,7 +569,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes-2-hall#from-escape"
+                 "value":"\/@\/rennes-2-hall#from-escape"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -735,7 +735,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/accueil-villejean#from-batL"
+                 "value":"\/@\/accueil-villejean#from-batL"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -901,7 +901,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes-2-hall#from-campus"
+                 "value":"\/@\/rennes-2-hall#from-campus"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -1201,7 +1201,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/formationrd2"
+                 "value":"\/@\/formationrd2"
                 }],
          "type":"tilelayer",
          "visible":false,

@@ -401,7 +401,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/beaulieu_1"
+                 "value":"\/@\/beaulieu_1"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -739,7 +739,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/@\/universite-rennes-2\/metavers\/metro"
+                         "value":"\/@\/metro"
                         }],
                  "rotation":0,
                  "visible":true,

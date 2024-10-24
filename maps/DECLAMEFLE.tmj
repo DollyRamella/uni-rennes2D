@@ -308,7 +308,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/accueil-villejean#from-DECLAME"
+                 "value":"\/@\/accueil-villejean#from-DECLAME"
                 }],
          "type":"tilelayer",
          "visible":false,

@@ -2513,7 +2513,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/accueil-villejean#from-space"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/accueil-villejean#from-space"
                 }],
          "type":"tilelayer",
          "visible":false,

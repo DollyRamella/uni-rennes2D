@@ -1458,7 +1458,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/tambour#from-interieur"
+                 "value":"\/@\/tambour#from-interieur"
                 }],
          "type":"tilelayer",
          "visible":false,

@@ -1244,7 +1244,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/ascenseur-cirefe"
+                 "value":"\/@\/ascenseur-cirefe"
                 }],
          "type":"tilelayer",
          "visible":false,

@@ -2178,7 +2178,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/salle_sant%C3%A9"
+                 "value":"\/@\/salle_sant%C3%A9"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2305,7 +2305,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/internationalspace"
+                 "value":"\/@\/internationalspace"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2432,7 +2432,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/metro"
+                 "value":"\/@\/metro"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2559,7 +2559,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/tambour#from-presidence"
+                 "value":"\/@\/tambour#from-presidence"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2686,7 +2686,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/mus\u00e9e"
+                 "value":"\/@\/mus\u00e9e"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2813,7 +2813,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/presidence"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/presidence"
                 }],
          "type":"tilelayer",
          "visible":false,

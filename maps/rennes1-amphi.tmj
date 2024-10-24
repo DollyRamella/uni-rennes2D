@@ -124,7 +124,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes1#from-amphi"
+                 "value":"\/@\/rennes1#from-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,

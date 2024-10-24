@@ -306,7 +306,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/accueil-villejean#from-pnrv"
+                 "value":"\/@\/accueil-villejean#from-pnrv"
                 }],
          "type":"tilelayer",
          "visible":false,

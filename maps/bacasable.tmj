@@ -362,7 +362,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/campus#from-escape"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/campus#from-escape"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -455,7 +455,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/elicce"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/elicce"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -643,7 +643,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/campus#from-rennes2"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/campus#from-rennes2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -831,7 +831,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes2-amphi"
+                 "value":"\/@\/rennes2-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,

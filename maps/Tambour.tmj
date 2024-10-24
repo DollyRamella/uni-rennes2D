@@ -116,7 +116,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/accueil-villejean#from-presidence"
+                 "value":"\/@\/accueil-villejean#from-presidence"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -308,7 +308,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/presidence#from-interieur"
+                 "value":"\/@\/presidence#from-interieur"
                 }],
          "type":"tilelayer",
          "visible":false,

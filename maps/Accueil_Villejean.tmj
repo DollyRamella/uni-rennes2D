@@ -781,7 +781,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/i@h"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/i@h"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -930,7 +930,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/mukwegue#from-muk"
+                 "value":"\/@\/mukwegue#from-muk"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -1084,7 +1084,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/salle-sant\u00e9#from-campusS"
+                 "value":"\/@\/salle-sant\u00e9#from-campusS"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -1161,7 +1161,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/mondevirtuel.univ-rennes2.fr\/@\/tambour-#from-presidence"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/tambour-#from-presidence"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -1463,7 +1463,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/ascenseur-cirefe"
+                 "value":"\/@\/ascenseur-cirefe"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -1617,7 +1617,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/ce-qui-nous-concerne#from-ceki"
+                 "value":"\/@\/ce-qui-nous-concerne#from-ceki"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -1771,7 +1771,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/declame'fle#DECLAME"
+                 "value":"\/@\/declame'fle#DECLAME"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -1850,7 +1850,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/pnrv#from-pnrv"
+                 "value":"\/@\/pnrv#from-pnrv"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2081,7 +2081,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/mus%C3%A9e"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/mus%C3%A9e"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -2158,7 +2158,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/rennes-2-hall#from-campus"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/rennes-2-hall#from-campus"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2312,7 +2312,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/internationalspace"
+                 "value":"\/@\/internationalspace"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2602,7 +2602,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/space-station"
+                 "value":"\/@\/space-station"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2985,7 +2985,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/@\/universite-rennes-2\/metavers\/metro"
+                         "value":"\/@\/metro"
                         }],
                  "rotation":0,
                  "visible":true,

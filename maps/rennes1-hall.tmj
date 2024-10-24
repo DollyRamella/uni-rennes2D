@@ -267,7 +267,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/campus#from-rennes1"
+                 "value":"\/@\/campus#from-rennes1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -453,7 +453,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes1-amphi#from-amphi"
+                 "value":"\/@\/rennes1-amphi#from-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,

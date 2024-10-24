@@ -362,7 +362,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/campus-tmj#from-escape"
+                 "value":"\/@\/campus-tmj#from-escape"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -455,7 +455,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/elicce"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/elicce"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -643,7 +643,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/campus-tmj#from-rennes2"
+                 "value":"\/@\/campus-tmj#from-rennes2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -831,7 +831,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes-2-amphi"
+                 "value":"\/@\/rennes-2-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -924,7 +924,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/ce-qui-nous-concerne-2"
+                 "value":"\/@\/ce-qui-nous-concerne-2"
                 }],
          "type":"tilelayer",
          "visible":true,

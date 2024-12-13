@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://play.workadventu.re/iframe_api.js"></script>
+    <script src="https://mondevirtuel.univ-rennes2.fr/iframe_api.js"></script>
+    <title>Tableau de bord</title>
+    <style>
+    html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+    /* General styling for relic container*/
+    #liste {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+        display: inline-block;
+        width: 70%;
+        height: 70%;
+        border-style: solid;
+        border-color: whitesmoke;
+        border-radius: 5px;
+        border-width: 5px;
+    }
+    /* General styling for the container */
+    #inventory {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;;
+        padding-left: 10px;
+        margin-top: 40%;
+        margin-left: 40%;
+        width: 310px;
+        height: 50px;
+        border: 2px solid #4caf50;
+        border-radius: 10px;
+        background: linear-gradient(145deg, #ffffff, #f0f0f0);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    /* General styling for relics */
+    .relic {
+        margin-top: 20px;
+        margin-left: 5%;
+        width: 100%;
+        height: 12%;
+        font-weight: 700;
+        font-family: "Alef";
+        font-size: 70px;
+        color: whitesmoke;
+    }
+    .arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin: 10px;
+    }
+    .arrow.left {
+        border-width: 15px 20px 15px 0;
+        border-color: transparent whitesmoke transparent transparent;
+    }
+    .arrow.right {
+        border-width: 15px 0 15px 20px;
+        border-color: transparent transparent transparent whitesmoke;
+    }
+    .arrow.left::before {
+        content: '---';
+        display: "flex";
+        position: absolute;
+        margin-left: 20px;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 8px;
+        background-color: whitesmoke;
+        color: #333;
+    }
+    .arrow.right::before {
+        content: '---';
+        display: "flex";
+        position: absolute;
+        margin-left: -50px;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 8px;
+        background-color: whitesmoke;
+        color: #333;
+    }
+    .arrow.active::before {
+    background-color: #f00;
+    }
+    .arrow.right.active {
+    border-color: transparent transparent transparent #f00; /* Change arrow color when active */
+    }
+    .arrow.left.active {
+    border-color: transparent #f00 transparent transparent; /* Change arrow color when active */
+    }
+    </style>
+</head>
+<body>
+    <div style="position: absolute; display: flex; width: 100%; height: 100%; background-color: #333;">
+    <iframe 
+    id="iframe"
+    title="Enigme 1 - Amazone FEMIESCAPE"
+    frameborder="0"
+    style="display: none;position: absolute; width: 100%; height: 90%;"
+    src="https://view.genially.com/60d6fa6e00ac720dd823eaf5"
+    allow="fullscreen"
+    scrolling="yes">
+    </iframe> <!-- Intégration du genially -->
+    <div id="liste">
+        <div class="relic" id=Relic1>
+            Relique 
+            <img id="1" style="position: absolute;; max-width: 70px; max-height: 70px" src="notFounded.png">
+            <span style="padding-left: 70px;">: XXX</span>
+        </div>
+        <div class="relic" id=Relic2>
+            Relique 
+            <img id="2" style="position: absolute;; max-width: 70px; max-height: 70px" src="notFounded.png">
+            <span style="padding-left: 70px;">: XXX</span>
+        </div>
+        <div class="relic" id=Relic3>
+            Relique 
+            <img id="3" style="position: absolute;; max-width: 70px; max-height: 70px" src="notFounded.png">
+            <span style="padding-left: 70px;">: XXX</span>
+        </div>
+        <div class="relic" id=Relic4>
+            Relique 
+            <img id="4" style="position: absolute; max-width: 70px; max-height: 70px" src="notFounded.png">
+            <span style="padding-left: 70px;">: XXXXX</span>
+        </div>
+        <div class="relic" id=Relic5>
+            Relique 
+            <img id="5" style="position: absolute;; max-width: 70px; max-height: 70px" src="notFounded.png">
+            <span style="padding-left: 70px;">: XXX</span>
+        </div>
+    </div>
+    <div class="arrow left" id="previous" style="top: 85%; display: flex; left: 35%;" onmousedown="toggleColor(this)" onmouseup="toggleColor(this)"></div> <!-- Flèche -->
+    <div id="inventory" style="position: relative">Vous avez trouvé X reliques sur 5</div>
+    <div class="arrow right" id="next" style="top: 85%; display: flex; left: 64.75%" onmousedown="toggleColor(this)" onmouseup="toggleColor(this)"></div> <!-- Flèche -->
+    </div>
+    <script>
+    const iframe = document.getElementById("iframe");
+    const inventory = document.getElementById("inventory");
+    document.getElementById("next").addEventListener("click", Page2);
+    document.getElementById("previous").addEventListener("click", Page1);
+    
+    let codes = ["192", "749", "493", "437", "femme", "vous"]
+    let images = ["./amazone.png", "./venus.png", "./cintre.png", "./leapetiteprincesse.png", "./mirroir.png"]
+
+    function update() {
+        let k = 0;
+        for (let i = 1; i < 6; i++) {
+            k += WA.player.state.loadVariable(`Enigme${i}`) == 1;
+            if (WA.player.state.loadVariable(`Enigme${i}`) == 1) {
+                document.getElementById(`Relic${i}`).querySelector("span").textContent = `: ${codes[i - 1]}`;
+                document.getElementById(`${i}`).src = images[i-1];
+            }
+        }
+        inventory.textContent = `Vous avez trouvé ${k} reliques sur 5`;
+    }
+    setInterval(update, 3);
+
+    function got_all_relics() {
+        for (let i = 1; i < 6; i++) {
+            if (WA.player.state.loadVariable(`Enigme${i}`) == 1) {
+                console.log("Player has variable", WA.player.state.loadVariable(`Enigme${i}`));
+            }
+            if (WA.player.state.loadVariable(`Enigme${i}`) != 1) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function Page2() {
+        console.log("Going to page 2");
+        if (got_all_relics()) {
+            iframe.style.display="flex";
+            inventory.style.display="none";
+            document.getElementById("liste").style.display="none";
+        } else {
+            alert("You don't have all relics !");
+        }
+
+    }
+    function Page1() {
+        console.log("Going to page 1");
+        if (got_all_relics()) {
+            iframe.style.display="none";
+            inventory.style.display="flex";
+            document.getElementById("liste").style.display="inline-block";
+        }
+    }
+
+    function toggleColor(element) {
+        element.classList.toggle("active");
+    }
+    </script>
+</body>

@@ -73,7 +73,7 @@
         code.addEventListener("input", () => {
         if (code.value && code.value === "437") {
             console.log("Code is: ", code.value);
-            WA.player.state.saveVariable("Enigme4", 1, {public: true, persist: true, ttl: 60 * 30, scope: "room"});
+            WA.player.state.Enigme4 = 1;
             document.getElementById("Response").style.display = "block";
             document.getElementById("text").style.display = "none";
             code.style.display = "none";

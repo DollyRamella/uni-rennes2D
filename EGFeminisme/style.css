@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+/* General styling for the container */
+#reponseBox {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-left: 10px;
+margin-left: 40%;
+width: 310px;
+height: 50px;
+border: 2px solid #4caf50;
+border-radius: 10px;
+background: linear-gradient(145deg, #ffffff, #f0f0f0);
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+/* Styling for the label */
+.label {
+font-size: 15px;
+font-weight: bold;
+color: #333;
+margin-bottom: 10px;
+}
+/* Styling for the input box */
+.input-box {
+width: 120px;
+padding-left: 10px;
+font-size: 14px;
+color: #333;
+border: 1px solid #ccc;
+border-radius: 5px;
+outline: none;
+box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+transition: border-color 0.3s, box-shadow 0.3s;
+}
+/* Add focus effect for the input box */
+.input-box:focus {
+border-color: #4caf50;
+box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* General styling for relic container*/
+#liste {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    display: inline-block;
+    width: 70%;
+    height: 70%;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 5px;
+}
+/* General styling for the container */
+#inventory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;;
+    padding-left: 10px;
+    margin-top: 40%;
+    margin-left: 40%;
+    width: 310px;
+    height: 50px;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+/* General styling for relics */
+.relic {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 100%;
+    height: 12%;
+    font-weight: 700;
+    font-family: "Alef";
+    font-size: 70px;
+    color: whitesmoke;
+}
+.arrow {
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+margin: 10px;
+}
+.arrow.left {
+    border-width: 15px 20px 15px 0;
+    border-color: transparent whitesmoke transparent transparent;
+}
+.arrow.right {
+    border-width: 15px 0 15px 20px;
+    border-color: transparent transparent transparent whitesmoke;
+}
+.arrow.left::before {
+    content: '---';
+    display: "flex";
+    position: absolute;
+    margin-left: 20px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 8px;
+    background-color: whitesmoke;
+    color: #333;
+}
+.arrow.right::before {
+    content: '---';
+    display: "flex";
+    position: absolute;
+    margin-left: -50px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 8px;
+    background-color: whitesmoke;
+    color: #333;
+}
+.arrow.active::before {
+background-color: #f00;
+}
+.arrow.right.active {
+border-color: transparent transparent transparent #f00; /* Change arrow color when active */
+}
+.arrow.left.active {
+border-color: transparent #f00 transparent transparent; /* Change arrow color when active */
+}

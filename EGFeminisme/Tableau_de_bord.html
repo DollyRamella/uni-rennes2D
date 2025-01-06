@@ -10,15 +10,6 @@
 </head>
 <body>
     <div style="position: absolute; display: flex; width: 100%; height: 100%; background-color: #333;">
-    <iframe 
-    id="iframe"
-    title="Enigme 1 - Amazone FEMIESCAPE"
-    frameborder="0"
-    style="display: none;position: absolute; width: 100%; height: 90%;"
-    src="https://view.genially.com/60d6fa6e00ac720dd823eaf5"
-    allow="fullscreen"
-    scrolling="yes">
-    </iframe> <!-- Intégration du genially -->
     <div id="liste">
         <div class="relic" id=Relic1>
             Relique 
@@ -46,66 +37,29 @@
             <span style="padding-left: 70px;">: XXX</span>
         </div>
     </div>
-    <div class="arrow left" id="previous" style="top: 85%; display: flex; left: 35%;" onmousedown="toggleColor(this)" onmouseup="toggleColor(this)"></div> <!-- Flèche -->
     <div id="inventory" style="position: relative">Vous avez trouvé X reliques sur 5</div>
-    <div class="arrow right" id="next" style="top: 85%; display: flex; left: 64.75%" onmousedown="toggleColor(this)" onmouseup="toggleColor(this)"></div> <!-- Flèche -->
     </div>
-    <script>
-    const iframe = document.getElementById("iframe");
-    const inventory = document.getElementById("inventory");
-    document.getElementById("next").addEventListener("click", Page2);
-    document.getElementById("previous").addEventListener("click", Page1);
-    
-    let codes = ["192", "749", "493", "437", "femme", "vous"]
-    let images = ["./amazone.png", "./venus.png", "./cintre.png", "./leapetiteprincesse.png", "./mirroir.png"]
-
-    function update() {
-        let k = 0;
-        for (let i = 1; i < 6; i++) {
-            k += WA.player.state.loadVariable(`Enigme${i}`) == 1;
-            if (WA.player.state.loadVariable(`Enigme${i}`) == 1) {
-                document.getElementById(`Relic${i}`).querySelector("span").textContent = `: ${codes[i - 1]}`;
-                document.getElementById(`${i}`).src = images[i-1];
-            }
-        }
-        inventory.textContent = `Vous avez trouvé ${k} reliques sur 5`;
-    }
-    setInterval(update, 3);
-
-    function got_all_relics() {
-        for (let i = 1; i < 6; i++) {
-            if (WA.player.state.loadVariable(`Enigme${i}`) == 1) {
-                console.log("Player has variable", WA.player.state.loadVariable(`Enigme${i}`));
-            }
-            if (WA.player.state.loadVariable(`Enigme${i}`) != 1) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    function Page2() {
-        console.log("Going to page 2");
-        if (got_all_relics()) {
-            iframe.style.display="flex";
-            inventory.style.display="none";
-            document.getElementById("liste").style.display="none";
-        } else {
-            alert("You don't have all relics !");
-        }
-
-    }
-    function Page1() {
-        console.log("Going to page 1");
-        if (got_all_relics()) {
-            iframe.style.display="none";
-            inventory.style.display="flex";
-            document.getElementById("liste").style.display="inline-block";
-        }
-    }
-
-    function toggleColor(element) {
-        element.classList.toggle("active");
-    }
-    </script>
 </body>
+</html>
+<script>
+let codes = ["192", "749", "493", "437", "femme", "vous"]
+let images = ["./amazone.png", "./venus.png", "./cintre.png", "./leapetiteprincesse.png", "./mirroir.png"]
+
+async function update() { // Mise à jour de la liste de relique obtenue
+    let k = 0;
+    for (let i = 1; i < 6; i++) {
+        k += WA.player.state.loadVariable(`Enigme${i}`) == 1;
+        if (WA.player.state.loadVariable(`Enigme${i}`) == 1) {
+            document.getElementById(`Relic${i}`).querySelector("span").textContent = `: ${codes[i - 1]}`;
+            document.getElementById(`${i}`).src = images[i - 1];
+        }
+    }
+    console.log(`Going with ${k} relics`);
+    inventory.textContent = `Vous avez trouvé ${k} reliques sur 5`;
+    if (k === 5) {
+        inventory.textContent = `Bravo! Vous avez trouvé les 5 reliques`;
+        await goToSecondRoom();
+    }
+}
+setInterval(update, 3);
+</script>

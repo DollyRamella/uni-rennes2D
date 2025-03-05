@@ -2207,7 +2207,7 @@
       "name": "collisions",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
@@ -3866,7 +3866,7 @@
       "name": "to-Villejean",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "properties": [
         {
@@ -4426,7 +4426,7 @@
       "name": "from-Villejean",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "properties": [
         {
@@ -4986,7 +4986,7 @@
       "name": "to-beaulieu",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "properties": [
         {
@@ -5546,7 +5546,7 @@
       "name": "from-beaulieu",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "properties": [
         {
@@ -6681,7 +6681,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "metro-chunk-1-d47a07d1.png",
+      "image": "metro-chunk-1-79d960c4.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -6696,7 +6696,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "metro-chunk-2-d47a07d1.png",
+      "image": "metro-chunk-2-79d960c4.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -6711,7 +6711,7 @@
     {
       "columns": 7,
       "firstgid": 513,
-      "image": "metro-chunk-3-d47a07d1.png",
+      "image": "metro-chunk-3-79d960c4.png",
       "imageheight": 224,
       "imagewidth": 224,
       "margin": 0,

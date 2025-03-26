@@ -2909,7 +2909,7 @@
       ],
       "height": 30,
       "id": 1,
-      "name": "abovePlayer1",
+      "name": "aboveLayer1",
       "opacity": 1,
       "type": "tilelayer",
       "visible": true,
@@ -4362,7 +4362,7 @@
       ],
       "height": 30,
       "id": 2,
-      "name": "abovePlayer2",
+      "name": "aboveLayer2",
       "opacity": 1,
       "type": "tilelayer",
       "visible": true,
@@ -4376,7 +4376,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "karaoke-chunk-1-2d13dc1b.png",
+      "image": "karaoke-chunk-1-ce871b43.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -4391,7 +4391,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "karaoke-chunk-2-2d13dc1b.png",
+      "image": "karaoke-chunk-2-ce871b43.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -4406,7 +4406,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "karaoke-chunk-3-2d13dc1b.png",
+      "image": "karaoke-chunk-3-ce871b43.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -4421,7 +4421,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "karaoke-chunk-4-2d13dc1b.png",
+      "image": "karaoke-chunk-4-ce871b43.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -4436,7 +4436,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "karaoke-chunk-5-2d13dc1b.png",
+      "image": "karaoke-chunk-5-ce871b43.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -4451,7 +4451,7 @@
     {
       "columns": 13,
       "firstgid": 1281,
-      "image": "karaoke-chunk-6-2d13dc1b.png",
+      "image": "karaoke-chunk-6-ce871b43.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,

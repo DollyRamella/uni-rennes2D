@@ -5814,7 +5814,26 @@
     },
     {
       "name": "floorLayer",
-      "objects": [],
+      "objects": [
+        {
+          "id": 1,
+          "name": "",
+          "visible": true,
+          "x": 930.666666666667,
+          "y": 367.166666666667,
+          "height": 41,
+          "rotation": 0,
+          "text": {
+            "text": "Biblothèque",
+            "bold": true,
+            "fontfamily": "Alef",
+            "pixelsize": 21,
+            "wrap": true
+          },
+          "class": "",
+          "width": 175.333333333333
+        }
+      ],
       "opacity": 1,
       "type": "objectgroup",
       "visible": true,
@@ -10188,7 +10207,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "karaoke-chunk-1-ec67e220.png",
+      "image": "karaoke-chunk-1-5bb5c255.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10203,7 +10222,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "karaoke-chunk-2-ec67e220.png",
+      "image": "karaoke-chunk-2-5bb5c255.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10218,7 +10237,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "karaoke-chunk-3-ec67e220.png",
+      "image": "karaoke-chunk-3-5bb5c255.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10233,7 +10252,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "karaoke-chunk-4-ec67e220.png",
+      "image": "karaoke-chunk-4-5bb5c255.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10248,7 +10267,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "karaoke-chunk-5-ec67e220.png",
+      "image": "karaoke-chunk-5-5bb5c255.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10263,7 +10282,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "karaoke-chunk-6-ec67e220.png",
+      "image": "karaoke-chunk-6-5bb5c255.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10299,7 +10318,7 @@
     {
       "columns": 13,
       "firstgid": 1537,
-      "image": "karaoke-chunk-7-ec67e220.png",
+      "image": "karaoke-chunk-7-5bb5c255.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,
@@ -10317,7 +10336,7 @@
   "height": 30,
   "infinite": false,
   "nextlayerid": 12,
-  "nextobjectid": 1,
+  "nextobjectid": 2,
   "orientation": "orthogonal",
   "properties": [
     {

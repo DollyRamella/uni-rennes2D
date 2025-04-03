@@ -5824,7 +5824,7 @@
           "height": 41,
           "rotation": 0,
           "text": {
-            "text": "Bibliothèque",
+            "text": "ChansonsThèque",
             "bold": true,
             "fontfamily": "Alef",
             "pixelsize": 21,
@@ -5832,6 +5832,30 @@
           },
           "class": "",
           "width": 175.333333333333
+        },
+        {
+          "id": 2,
+          "name": "Salle 3",
+          "visible": true,
+          "x": 321.333333333333,
+          "y": 147.666666666667,
+          "ellipse": true,
+          "height": 86,
+          "properties": [
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "salle3"
+            },
+            {
+              "name": "jitsiRoomAdminTag",
+              "type": "string",
+              "value": "admin"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 92
         }
       ],
       "opacity": 1,
@@ -5839,6 +5863,8 @@
       "visible": true,
       "draworder": "topdown",
       "id": 3,
+      "offsetx": -45.3333333333334,
+      "offsety": 0.333333333333314,
       "x": 0,
       "y": 0
     },
@@ -10207,7 +10233,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "karaoke-chunk-1-9aa31371.png",
+      "image": "karaoke-chunk-1-dfb61cba.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10222,7 +10248,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "karaoke-chunk-2-9aa31371.png",
+      "image": "karaoke-chunk-2-dfb61cba.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10237,7 +10263,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "karaoke-chunk-3-9aa31371.png",
+      "image": "karaoke-chunk-3-dfb61cba.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10252,7 +10278,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "karaoke-chunk-4-9aa31371.png",
+      "image": "karaoke-chunk-4-dfb61cba.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10267,7 +10293,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "karaoke-chunk-5-9aa31371.png",
+      "image": "karaoke-chunk-5-dfb61cba.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10282,7 +10308,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "karaoke-chunk-6-9aa31371.png",
+      "image": "karaoke-chunk-6-dfb61cba.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10318,7 +10344,7 @@
     {
       "columns": 13,
       "firstgid": 1537,
-      "image": "karaoke-chunk-7-9aa31371.png",
+      "image": "karaoke-chunk-7-dfb61cba.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,
@@ -10336,7 +10362,7 @@
   "height": 30,
   "infinite": false,
   "nextlayerid": 12,
-  "nextobjectid": 2,
+  "nextobjectid": 3,
   "orientation": "orthogonal",
   "properties": [
     {

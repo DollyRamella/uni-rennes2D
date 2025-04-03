@@ -5856,6 +5856,150 @@
           "rotation": 0,
           "class": "area",
           "width": 92
+        },
+        {
+          "id": 3,
+          "name": "Salle 2",
+          "visible": true,
+          "x": 141.333333333333,
+          "y": 336.666666666667,
+          "ellipse": true,
+          "height": 104,
+          "properties": [
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "salle2"
+            },
+            {
+              "name": "jitsiRoomAdminTag",
+              "type": "string",
+              "value": "admin"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 126
+        },
+        {
+          "id": 4,
+          "name": "Salle 1",
+          "visible": true,
+          "x": 187.333333333333,
+          "y": 848.666666666667,
+          "ellipse": true,
+          "height": 110,
+          "properties": [
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "salle1"
+            },
+            {
+              "name": "jitsiRoomAdminTag",
+              "type": "string",
+              "value": "admin"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 134
+        },
+        {
+          "id": 5,
+          "name": "Salle 4",
+          "visible": true,
+          "x": 735.333333333333,
+          "y": 434.666666666667,
+          "ellipse": true,
+          "height": 100,
+          "properties": [
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "salle4"
+            },
+            {
+              "name": "jitsiRoomAdminTag",
+              "type": "string",
+              "value": "admin"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 112
+        },
+        {
+          "id": 6,
+          "name": "Salle 3",
+          "visible": true,
+          "x": 593.333333333333,
+          "y": 685.666666666667,
+          "ellipse": true,
+          "height": 100,
+          "properties": [
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "salle7"
+            },
+            {
+              "name": "jitsiRoomAdminTag",
+              "type": "string",
+              "value": "admin"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 112
+        },
+        {
+          "id": 7,
+          "name": "Salle 3",
+          "visible": true,
+          "x": 1339.33333333333,
+          "y": 483.666666666667,
+          "ellipse": true,
+          "height": 100,
+          "properties": [
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "salle6"
+            },
+            {
+              "name": "jitsiRoomAdminTag",
+              "type": "string",
+              "value": "admin"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 222
+        },
+        {
+          "id": 8,
+          "name": "Salle 3",
+          "visible": true,
+          "x": 1429.33333333333,
+          "y": 135.666666666667,
+          "ellipse": true,
+          "height": 100,
+          "properties": [
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "salle5"
+            },
+            {
+              "name": "jitsiRoomAdminTag",
+              "type": "string",
+              "value": "admin"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 112
         }
       ],
       "opacity": 1,
@@ -10233,7 +10377,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "karaoke-chunk-1-dfb61cba.png",
+      "image": "karaoke-chunk-1-e9b7e0c7.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10248,7 +10392,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "karaoke-chunk-2-dfb61cba.png",
+      "image": "karaoke-chunk-2-e9b7e0c7.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10263,7 +10407,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "karaoke-chunk-3-dfb61cba.png",
+      "image": "karaoke-chunk-3-e9b7e0c7.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10278,7 +10422,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "karaoke-chunk-4-dfb61cba.png",
+      "image": "karaoke-chunk-4-e9b7e0c7.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10293,7 +10437,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "karaoke-chunk-5-dfb61cba.png",
+      "image": "karaoke-chunk-5-e9b7e0c7.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10308,7 +10452,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "karaoke-chunk-6-dfb61cba.png",
+      "image": "karaoke-chunk-6-e9b7e0c7.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10344,7 +10488,7 @@
     {
       "columns": 13,
       "firstgid": 1537,
-      "image": "karaoke-chunk-7-dfb61cba.png",
+      "image": "karaoke-chunk-7-e9b7e0c7.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,
@@ -10362,7 +10506,7 @@
   "height": 30,
   "infinite": false,
   "nextlayerid": 12,
-  "nextobjectid": 3,
+  "nextobjectid": 9,
   "orientation": "orthogonal",
   "properties": [
     {

@@ -5824,7 +5824,7 @@
           "height": 41,
           "rotation": 0,
           "text": {
-            "text": "Biblothèque",
+            "text": "Bibliothèque",
             "bold": true,
             "fontfamily": "Alef",
             "pixelsize": 21,
@@ -8454,7 +8454,6 @@
         0,
         0,
         0,
-        0,
         1700,
         1701,
         0,
@@ -8505,6 +8504,7 @@
         0,
         1702,
         1703,
+        0,
         0,
         0,
         0,
@@ -10207,7 +10207,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "karaoke-chunk-1-6d6635a7.png",
+      "image": "karaoke-chunk-1-9aa31371.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10222,7 +10222,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "karaoke-chunk-2-6d6635a7.png",
+      "image": "karaoke-chunk-2-9aa31371.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10237,7 +10237,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "karaoke-chunk-3-6d6635a7.png",
+      "image": "karaoke-chunk-3-9aa31371.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10252,7 +10252,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "karaoke-chunk-4-6d6635a7.png",
+      "image": "karaoke-chunk-4-9aa31371.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10267,7 +10267,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "karaoke-chunk-5-6d6635a7.png",
+      "image": "karaoke-chunk-5-9aa31371.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10282,7 +10282,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "karaoke-chunk-6-6d6635a7.png",
+      "image": "karaoke-chunk-6-9aa31371.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10318,7 +10318,7 @@
     {
       "columns": 13,
       "firstgid": 1537,
-      "image": "karaoke-chunk-7-6d6635a7.png",
+      "image": "karaoke-chunk-7-9aa31371.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,

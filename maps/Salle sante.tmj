@@ -3319,7 +3319,7 @@
         {
           "name": "exitUrl",
           "type": "string",
-          "value": "/@/accueil_villejean#from-campusS"
+          "value": "https://mondevirtuel.univ-rennes2.fr/@/accueil-villejean#from-campusS"
         }
       ],
       "x": 0,
@@ -5009,7 +5009,7 @@
             "pixelsize": 23,
             "wrap": true
           },
-          "type": "",
+          "class": "",
           "width": 236
         }
       ],
@@ -6130,12 +6130,12 @@
       "y": 0
     }
   ],
-  "tiledversion": "1.11.0",
+  "tiledversion": "1.9.1",
   "tilesets": [
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "Salle sante-chunk-1-87213360.png",
+      "image": "Salle sante-chunk-1-2617e6ce.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -6150,7 +6150,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "Salle sante-chunk-2-87213360.png",
+      "image": "Salle sante-chunk-2-2617e6ce.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -6165,7 +6165,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "Salle sante-chunk-3-87213360.png",
+      "image": "Salle sante-chunk-3-2617e6ce.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -6201,7 +6201,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "Salle sante-chunk-4-87213360.png",
+      "image": "Salle sante-chunk-4-2617e6ce.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -6216,7 +6216,7 @@
     {
       "columns": 15,
       "firstgid": 1025,
-      "image": "Salle sante-chunk-5-87213360.png",
+      "image": "Salle sante-chunk-5-2617e6ce.png",
       "imageheight": 480,
       "imagewidth": 480,
       "margin": 0,
@@ -6239,7 +6239,7 @@
   "renderorder": "right-down",
   "tileheight": 32,
   "tilewidth": 32,
-  "version": "1.10",
+  "version": "1.9",
   "width": 30,
   "editorsettings": {
     "export": {

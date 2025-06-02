@@ -5832,6 +5832,42 @@
           },
           "class": "",
           "width": 210.448884250286
+        },
+        {
+          "id": 9,
+          "name": "parcours 1",
+          "visible": true,
+          "x": 580,
+          "y": 685,
+          "height": 112,
+          "properties": [
+            {
+              "name": "openWebsite",
+              "type": "string",
+              "value": "https://www.thinglink.com/view/scene/1950918661296358053"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 97.3333333333334
+        },
+        {
+          "id": 10,
+          "name": "parcours 2",
+          "visible": true,
+          "x": 121.333333333333,
+          "y": 319.666666666667,
+          "height": 161.333333333333,
+          "properties": [
+            {
+              "name": "openWebsite",
+              "type": "string",
+              "value": "https://www.thinglink.com/view/scene/1951310443741971300"
+            }
+          ],
+          "rotation": 0,
+          "class": "area",
+          "width": 189.333333333333
         }
       ],
       "opacity": 1,
@@ -10209,7 +10245,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "ExpoImmersive-chunk-1-bc5f532f.png",
+      "image": "ExpoImmersive-chunk-1-1d4cff5a.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10224,7 +10260,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "ExpoImmersive-chunk-2-bc5f532f.png",
+      "image": "ExpoImmersive-chunk-2-1d4cff5a.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10239,7 +10275,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "ExpoImmersive-chunk-3-bc5f532f.png",
+      "image": "ExpoImmersive-chunk-3-1d4cff5a.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10254,7 +10290,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "ExpoImmersive-chunk-4-bc5f532f.png",
+      "image": "ExpoImmersive-chunk-4-1d4cff5a.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10269,7 +10305,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "ExpoImmersive-chunk-5-bc5f532f.png",
+      "image": "ExpoImmersive-chunk-5-1d4cff5a.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10284,7 +10320,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "ExpoImmersive-chunk-6-bc5f532f.png",
+      "image": "ExpoImmersive-chunk-6-1d4cff5a.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10320,7 +10356,7 @@
     {
       "columns": 13,
       "firstgid": 1537,
-      "image": "ExpoImmersive-chunk-7-bc5f532f.png",
+      "image": "ExpoImmersive-chunk-7-1d4cff5a.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,
@@ -10338,7 +10374,7 @@
   "height": 30,
   "infinite": false,
   "nextlayerid": 12,
-  "nextobjectid": 9,
+  "nextobjectid": 11,
   "orientation": "orthogonal",
   "properties": [
     {

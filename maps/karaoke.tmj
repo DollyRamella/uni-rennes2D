@@ -10377,7 +10377,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "karaoke-chunk-1-bc646ec2.png",
+      "image": "karaoke-chunk-1-b01429be.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10392,7 +10392,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "karaoke-chunk-2-bc646ec2.png",
+      "image": "karaoke-chunk-2-b01429be.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10407,7 +10407,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "karaoke-chunk-3-bc646ec2.png",
+      "image": "karaoke-chunk-3-b01429be.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10422,7 +10422,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "karaoke-chunk-4-bc646ec2.png",
+      "image": "karaoke-chunk-4-b01429be.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10437,7 +10437,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "karaoke-chunk-5-bc646ec2.png",
+      "image": "karaoke-chunk-5-b01429be.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10452,7 +10452,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "karaoke-chunk-6-bc646ec2.png",
+      "image": "karaoke-chunk-6-b01429be.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -10488,7 +10488,7 @@
     {
       "columns": 13,
       "firstgid": 1537,
-      "image": "karaoke-chunk-7-bc646ec2.png",
+      "image": "karaoke-chunk-7-b01429be.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,
